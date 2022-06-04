@@ -23,8 +23,8 @@ Here are some ideas to get you started:
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
 
 ### Github Stats
-[![github stats](https://github-readme-stats.vercel.app/api?username=NaturalSelect&show_icons=true&count_private=true&include_all_commits=true&line_height=28&hide_rank=false)](https://github.com/anuraghazra/github-readme-stats)
+[![github stats](https://github-readme-stats.vercel.app/api?username=NaturalSelect&show_icons=true&count_private=true&include_all_commits=true&line_height=28&hide_rank=false&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
 
 
 ### Top Languages
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=NaturalSelect&layout=compact&langs_count=14&hide=stylus,smarty&count_private=true)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=NaturalSelect&layout=compact&langs_count=14&hide=stylus,smarty&count_private=true&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
