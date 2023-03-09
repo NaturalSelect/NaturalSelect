@@ -29,4 +29,4 @@ A university student who is interesting in distributed system.
 
 
 ### Top Languages
-[![Top Langs](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=NaturalSelect&layout=compact&langs_count=14&hide=stylus,smarty&count_private=true&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=NaturalSelect&layout=compact&langs_count=14&hide=stylus,smarty&count_private=true&theme=radical&hide=js)](https://github.com/anuraghazra/github-readme-stats)
