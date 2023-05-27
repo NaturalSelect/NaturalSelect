@@ -16,7 +16,8 @@ Here are some ideas to get you started:
 ## About Me
 ![这是访问量计数，如果看不到请刷新](https://jwenjian-visitor-badge-5.glitch.me/badge?page_id=NaturalSelect.NaturalSelect.readme)
 
-A university student who is interesting in distributed system.
+* Hello I'm NaturalSelct.
+* I am interesting in cloud storage.
 
 ### Using
 
