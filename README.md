@@ -16,7 +16,7 @@ Here are some ideas to get you started:
 ## About Me
 ![这是访问量计数，如果看不到请刷新](https://jwenjian-visitor-badge-5.glitch.me/badge?page_id=NaturalSelect.NaturalSelect.readme)
 
-* Hello I'm NaturalSelct.
+* Hello I'm NaturalSelect.
 * I am interesting in cloud storage.
 
 ### Using
