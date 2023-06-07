@@ -18,6 +18,8 @@ Here are some ideas to get you started:
 
 * Hello I'm NaturalSelect.
 * I am interesting in cloud storage.
+* Working on Windows 10 and WSL.
+* Using C/C++/Go/C#/Java.
 
 ### Using
 
