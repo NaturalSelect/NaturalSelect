@@ -28,7 +28,7 @@ Here are some ideas to get you started:
 
 ### Github Stats
 
-[![github stats](https://github-readme-stats.vercel.app/api?username=NaturalSelect&show_icons=true&count_private=true&include_all_commits=true&line_height=28&hide_rank=false&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
+[![github stats](https://github-readme-stats.vercel.app/api?username=NaturalSelect&count_private=true&line_height=28&hide_rank=false&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
 
 
 ### Top Languages
