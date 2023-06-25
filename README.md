@@ -39,3 +39,4 @@ Here are some ideas to get you started:
 
 * [cubefs/cubefs](https://github.com/cubefs/cubefs)
 * [AnyMoonS/AutoFinishLessons](https://github.com/AnyMoonS/AutoFinishLessons)
+* [Lxns-Network/nakuru-project](https://github.com/Lxns-Network/nakuru-project)
