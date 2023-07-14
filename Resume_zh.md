@@ -20,8 +20,10 @@
 * 对Raft算法有一定的理解，了解MultiRaft。
 * 对分布式事务有一定的理解，了解Percolator风格分布式事务。
 * 了解Primary-backup Replication、Chain Replication、Quorum Replication。
+* 了解常见磁盘数据结构（B+Tree、LSM Tree）。
 * 了解分布式系统原理。
 * 了解关系式数据库原理。
+* 了解操作系统原理。
 
 ## 个人项目
 
