@@ -70,10 +70,9 @@ CubeFS是新一代云原生存储产品由云原生计算基金会（CNCF）托�
 |fix(master): fix #2084|#2086|修复#2084。|Merged|
 |fix(master): fix `api_service_test.go`|#2123|修复`api_service_test.go`中的所有错误。|Merged|
 |test(master): add IDAllocator test and fix TestBalanceMetaPartition test|#2215|修复master单元测试中的其他错误（以便在CI中包含master）并添加`IDAllocator`单元测试。|Merged|
-|[Feature]: Limit the number of threads for blobnode and datanode to read and write disk|#1974|限制datanode和blobnode的磁盘读写线程数量，防止线程数量过多造成panic并提高性能。|Review|
+|[Feature]: Limit the number of threads for blobnode and datanode to read and write disk|#1974|限制datanode和blobnode的磁盘读写线程数量，防止线程数量过多造成panic并提高性能。|Merged|
 |[Feature]: DataNode receiving processing supports speed limit|#2182|支持primary-backup 复制的接收限速，并提供operate阶段的负载监控，以便动态对限速做出调整。|Review|
 |[Feature]: Support for multiple selection strategies when selecting nodes and nodesets|#2226|在选择node和nodeset时支持多个策略（`RoundRobin`、`CarryWeight`、`AvailableSpaceFirst`）并支持CLI/HTTP API进行查询和切换。|Review|
-|test(ci): show more information in CI to help debug|#2278|在CI中显示node信息以帮助debug|Review|
+|[Fix]: fix some bugs & show node information in CI to help debug|#2300|在CI中显示node信息以帮助debug|Review|
 |[Fix]: fix cli format bug|#2284|修复CLI中的格式化输出函数误用|Review|
-
 
