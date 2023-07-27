@@ -57,9 +57,11 @@
 
 ### CubeFS
 
-CubeFS是新一代云原生存储产品由云原生计算基金会（CNCF）托管的孵化项目， 兼容S3、POSIX、HDFS等多种访问协议，支持多副本与纠删码两种存储引擎，为用户提供多租户、 多AZ部署以及跨区域复制等多种特性，广泛应用于大数据、AI、容器平台、数据库、中间件存算分离、数据共享以及数据保护等场景。
+* **项目简介：** CubeFS是新一代云原生存储产品由云原生计算基金会（CNCF）托管的孵化项目， 兼容S3、POSIX、HDFS等多种访问协议，支持多副本与纠删码两种存储引擎，为用户提供多租户、 多AZ部署以及跨区域复制等多种特性，广泛应用于大数据、AI、容器平台、数据库、中间件存算分离、数据共享以及数据保护等场景。
+* **社区角色：** Contributor
 
-为CubeFS编写了10+ Pull Requests:
+提交的Pull Request列表：
+
 |标题|PR|主要内容|状态|
 |-|-|-|-|
 |[Feature]: Master does snapshot optimization|#2124|加速Master的快照apply。|Merged|
@@ -75,4 +77,16 @@ CubeFS是新一代云原生存储产品由云原生计算基金会（CNCF）托�
 |[Feature]: Support for multiple selection strategies when selecting nodes and nodesets|#2353|在选择node和nodeset时支持多个策略（`RoundRobin`、`CarryWeight`、`AvailableSpaceFirst`）并支持CLI/HTTP API进行查询和切换。|Review|
 |[Fix]: fix some bugs & show node information in CI to help debug|#2300|在CI中显示node信息以帮助debug|Review|
 |[Fix]: fix cli format bug|#2284|修复CLI中的格式化输出函数误用|Review|
+|[Feature]: Master/DataNode/MetaNode start log optimization|#2350|在启动时打印log内容到output以便于分析启动失败的原因|Review|
+|[Feature]: Use parallel compile to speed up pre_build|#2344|使用`-j`选项加速依赖的编译|Review|
 
+### Curve
+
+* **项目简介：** Curve 是网易主导自研的现代化存储系统, 目前支持文件存储(CurveFS)和块存储(CurveBS)。现作为沙箱项目托管于CNCF。
+* **社区角色：** Contributor
+
+提交的Pull Request列表：
+
+|标题|PR|主要内容|状态|
+|-|-|-|-|
+|[Build]: Support build on GCC 11+|#2642|修改了一些bug并支持curve在高版本GCC构建|Merged|
