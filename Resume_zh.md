@@ -73,12 +73,12 @@
 |fix(master): fix `api_service_test.go`|#2123|修复`api_service_test.go`中的所有错误。|Merged|
 |test(master): add IDAllocator test and fix TestBalanceMetaPartition test|#2215|修复master单元测试中的其他错误（以便在CI中包含master）并添加`IDAllocator`单元测试。|Merged|
 |[Feature]: Limit the number of threads for blobnode and datanode to read and write disk|#1974|限制datanode和blobnode的磁盘读写线程数量，防止线程数量过多造成panic并提高性能。|Merged|
-|[Feature]: DataNode receiving processing supports speed limit|#2354|支持primary-backup 复制的接收限速，并提供operate阶段的负载监控，以便动态对限速做出调整。|Review|
-|[Feature]: Support for multiple selection strategies when selecting nodes and nodesets|#2353|在选择node和nodeset时支持多个策略（`RoundRobin`、`CarryWeight`、`AvailableSpaceFirst`）并支持CLI/HTTP API进行查询和切换。|Review|
+|[Feature]: Support for multiple selection strategies when selecting nodes and nodesets|#2353|在选择node和nodeset时支持多个策略（`RoundRobin`、`CarryWeight`、`AvailableSpaceFirst`）并支持CLI/HTTP API进行查询和切换。|Merged|
+|[Feature]: Master/DataNode/MetaNode start log optimization|#2350|在启动时打印log内容到output以便于分析启动失败的原因|Merged|
+|[Feature]: Use parallel compile to speed up pre_build|#2344|使用`-j`选项加速依赖的编译|Merged|
 |[Fix]: fix some bugs & show node information in CI to help debug|#2300|在CI中显示node信息以帮助debug|Review|
 |[Fix]: fix cli format bug|#2284|修复CLI中的格式化输出函数误用|Review|
-|[Feature]: Master/DataNode/MetaNode start log optimization|#2350|在启动时打印log内容到output以便于分析启动失败的原因|Review|
-|[Feature]: Use parallel compile to speed up pre_build|#2344|使用`-j`选项加速依赖的编译|Review|
+|[Feature]: DataNode receiving processing supports speed limit|#2354|支持primary-backup 复制的接收限速，并提供operate阶段的负载监控，以便动态对限速做出调整。|Draft|
 
 ### Curve
 
@@ -90,3 +90,4 @@
 |标题|PR|主要内容|状态|
 |-|-|-|-|
 |[Build]: Support build on GCC 11+|#2642|修改了一些bug并支持curve在高版本GCC构建|Merged|
+|[Feature]: curvefs metaserver support asynchronous snapshot|#2691|curvefs支持metaserver异步raft snapshot|Review|
