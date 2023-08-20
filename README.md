@@ -16,7 +16,7 @@ Here are some ideas to get you started:
 ## About Me
 
 * Hello I'm NaturalSelect.
-* I am interesting in cloud storage.
+* I am interested in cloud storage.
 * Working on Windows 10 and WSL.
 * Using C/C++/Go/C#/Java.
 
