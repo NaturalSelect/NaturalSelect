@@ -73,7 +73,7 @@
 |fix(master): fix `api_service_test.go`|#2123|修复`api_service_test.go`中的所有错误。|Merged|
 |test(master): add IDAllocator test and fix TestBalanceMetaPartition test|#2215|修复master单元测试中的其他错误（以便在CI中包含master）并添加`IDAllocator`单元测试。|Merged|
 |[Feature]: Limit the number of threads for blobnode and datanode to read and write disk|#1974|限制datanode和blobnode的磁盘读写线程数量，防止线程数量过多造成panic并提高性能。|Merged|
-|[Feature]: Support for multiple selection strategies when selecting nodes and nodesets|#2353|在选择node和nodeset时支持多个策略（`RoundRobin`、`CarryWeight`、`AvailableSpaceFirst`）并支持CLI/HTTP API进行查询和切换。|Merged|
+|[Feature]: Support for multiple selection strategies when selecting nodes and nodesets|#2353|在选择node和nodeset时支持多个策略（`RoundRobin`、`CarryWeight`、`AvailableSpaceFirst`、`Ticket`）并支持CLI/HTTP API进行多维度的策略查询和切换。|Merged|
 |[Feature]: Master/DataNode/MetaNode start log optimization|#2350|在启动时打印log内容到output以便于分析启动失败的原因|Merged|
 |[Feature]: Use parallel compile to speed up pre_build|#2344|使用`-j`选项加速依赖的编译|Merged|
 |[Fix]: fix some bugs & show node information in CI to help debug|#2300|在CI中显示node信息以帮助debug|Review|
