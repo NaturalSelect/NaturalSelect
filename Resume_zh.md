@@ -61,9 +61,8 @@
 * **社区角色：** Commiter
 
 **相关证书：**
-|Contributor|Commiter|
-|-|-|
-|![Contributor](/CubeFS%20Contributor.jpg)|![Commiter](/CubeFS%20Commiter.jpg)|
+
+![Commiter](/CubeFS%20Commiter.jpg)
 
 提交的Pull Request列表：
 
