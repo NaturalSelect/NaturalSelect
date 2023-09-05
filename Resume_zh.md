@@ -76,10 +76,7 @@
 |[Feature]: Support for multiple selection strategies when selecting nodes and nodesets|#2353|在选择node和nodeset时支持多个策略（`RoundRobin`、`CarryWeight`、`AvailableSpaceFirst`、`Ticket`）并支持CLI/HTTP API进行多维度的策略查询和切换。|Merged|
 |[Feature]: Master/DataNode/MetaNode start log optimization|#2350|在启动时打印log内容到output以便于分析启动失败的原因|Merged|
 |[Feature]: Use parallel compile to speed up pre_build|#2344|使用`-j`选项加速依赖的编译|Merged|
-|[Fix]: fix some bugs & show node information in CI to help debug|#2300|在CI中显示node信息以帮助debug|Review|
-|[Fix]: fix cli format bug|#2284|修复CLI中的格式化输出函数误用|Review|
-|[Feature]: Supports write disable option|#2537|支持主动禁止卷的写入|Review|
-|[Feature]: DataNode receiving processing supports speed limit|#2354|支持primary-backup 复制的接收限速，并提供operate阶段的负载监控，以便动态对限速做出调整。|Draft|
+|[Feature]: Supports write disable option|#2537|支持主动禁止卷的写入|Merged|
 
 ### Curve
 
