@@ -62,9 +62,9 @@
 
 **相关证书：**
 
-![Commiter](/CubeFS%20Commiter.jpg)
+![Commiter](./CubeFS%20Commiter.jpg)
 
-提交的Pull Request列表：
+**提交的Pull Request列表：**
 
 |标题|PR|主要内容|状态|
 |-|-|-|-|
