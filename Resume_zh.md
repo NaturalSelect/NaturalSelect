@@ -21,38 +21,6 @@
 * 了解关系式数据库原理。
 * 了解操作系统原理。
 
-## 个人项目
-
-### Sharpen
-
-基于协程的C++网络库，封装了Iocp（Windows）、Epoll（Linux）和io_uring(Linux)，并提供一个不完整的Raft实现。
-
-主要功能：
-* 提供Tcp Socket的封装。
-* 提供File Stream的封装。
-* 提供Pipe 的封装。
-* 提供Posix Signal的封装。
-* 提供基于模板元的半自动序列化和反序列化。
-
-项目亮点：
-* 提供基于协程的I/O操作。
-* 不依赖除`Boost.Context`以外的其他开源库。
-
-### Rkv
-
-使用C++编写的基于MultiRaft的键值存储系统。
-
-主要功能：
-* 提供基础的`GET/PUT/DELETE`接口。
-* 基于MultiRaft，单个集群可以负载大量的Raft状态机。
-* 基于key范围的数据分区。
-* 动态自动分区。
-
-项目亮点：
-* 通过Raft实现数据一致。
-* 基于键数量的动态重新分区，当单一分区键数量到达阈值时分裂成两个分区。
-* 不依赖除`Boost.Context`以外的其他开源库。
-
 ## 开源经历
 
 ### CubeFS
@@ -93,3 +61,43 @@
 |-|-|-|-|
 |[Build]: Support build on GCC 11+|#2642|修改了一些bug并支持curve在高版本GCC构建|Merged|
 |[Feature]: curvefs metaserver support asynchronous snapshot|#2691|curvefs支持metaserver异步raft snapshot|Review|
+
+## 个人项目
+
+### Sharpen
+
+基于协程的C++网络库，封装了Iocp（Windows）、Epoll（Linux）和io_uring(Linux)，并提供一个不完整的Raft实现。
+
+主要功能：
+* 提供Tcp Socket的封装。
+* 提供File Stream的封装。
+* 提供Pipe 的封装。
+* 提供Posix Signal的封装。
+* 提供基于模板元的半自动序列化和反序列化。
+
+项目亮点：
+* 提供基于协程的I/O操作。
+* 不依赖除`Boost.Context`以外的其他开源库。
+
+### Rkv
+
+使用C++编写的基于MultiRaft的键值存储系统。
+
+主要功能：
+* 提供基础的`GET/PUT/DELETE`接口。
+* 基于MultiRaft，单个集群可以负载大量的Raft状态机。
+* 基于key范围的数据分区。
+* 动态自动分区。
+
+项目亮点：
+* 通过Raft实现数据一致。
+* 基于键数量的动态重新分区，当单一分区键数量到达阈值时分裂成两个分区。
+* 不依赖除`Boost.Context`以外的其他开源库。
+
+## 教育经历
+
+### 成都信息工程大学
+
+本科 | 区块链工程
+
+2021.9 - 2025.6
