@@ -30,7 +30,9 @@
 
 **相关证书：**
 
-![Commiter](./CubeFS%20Commiter.jpg)
+|Commiter|Contributor|
+|-|-|
+|![Commiter](./CubeFS%20Commiter.jpg)|![Contributor](./CubeFS%20Contributor.jpg)|
 
 **提交的Pull Request列表：**
 
