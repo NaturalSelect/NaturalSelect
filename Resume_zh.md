@@ -29,7 +29,7 @@
 
 2021.9 - 2025.6
 
-## 开源经历
+## 项目经历
 
 ### CubeFS
 
@@ -46,23 +46,6 @@
 
 * **项目简介：** Curve 是网易主导自研的现代化存储系统, 目前支持文件存储(CurveFS)和块存储(CurveBS)。现作为沙箱项目托管于CNCF。
 * **社区角色：** Contributor
-
-## 个人项目
-
-### Sharpen
-
-基于协程的C++网络库，封装了Iocp（Windows）、Epoll（Linux）和io_uring(Linux)，并提供一个不完整的Raft实现。
-
-主要功能：
-* 提供Tcp Socket的封装。
-* 提供File Stream的封装。
-* 提供Pipe 的封装。
-* 提供Posix Signal的封装。
-* 提供基于模板元的半自动序列化和反序列化。
-
-项目亮点：
-* 提供基于协程的I/O操作。
-* 不依赖除`Boost.Context`以外的其他开源库。
 
 ### Rkv
 
