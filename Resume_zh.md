@@ -93,12 +93,18 @@
 * **社区角色：** Contributor
 * **项目日期：** 2023/8 - 至今
 
+**相关证书：**
+
+|Contributor|
+|-|
+|![Contributor](./Curve%20Contributor.png)|
+
 **主要贡献:**
 
 * 修复了不能在GCC 11上编译的BUG。
-* 支持元数据服务进行异步的raft 快照。
+* 支持元数据服务进行异步的 Raft Snapshot。
 
-### CurveAdm
+<!-- ### CurveAdm
 
 * **项目简介：** CurveAdm是一个用于部署和管理Curve集群的工具，它易于使用且功能丰富。
 * **社区角色：** Contributor
@@ -106,7 +112,7 @@
 
 **主要贡献：**
 
-* 在WSL2部署客户端时，跳过FUSE模块的检查（FUSE已被静态链接到WSL2中）。
+* 在WSL2部署客户端时，跳过FUSE模块的检查（FUSE已被静态链接到WSL2中）。 -->
 
 ### Rkv
 
