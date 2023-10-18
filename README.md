@@ -19,7 +19,7 @@ Here are some ideas to get you started:
 * I am interested in cloud storage.
 * Working on Windows 10 and WSL.
 * Using C/C++/Go/C#/Java.
-* CNCF CubeFS Commiter.
+* CNCF CubeFS Committer.
 
 ### Using
 

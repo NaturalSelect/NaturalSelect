@@ -69,14 +69,14 @@
 ### CubeFS
 
 * **项目简介：** CubeFS是新一代云原生存储产品由云原生计算基金会（CNCF）托管的孵化项目， 兼容S3、POSIX、HDFS等多种访问协议，支持多副本与纠删码两种存储引擎，为用户提供多租户、 多AZ部署以及跨区域复制等多种特性，广泛应用于大数据、AI、容器平台、数据库、中间件存算分离、数据共享以及数据保护等场景。
-* **社区角色：** Commiter
+* **社区角色：** Committer
 * **项目日期：** 2023/5 - 至今
 
 **相关证书：**
 
-|Commiter|Contributor|
+|Committer|Contributor|
 |-|-|
-|![Commiter](./CubeFS%20Commiter.jpg)|![Contributor](./CubeFS%20Contributor.jpg)|
+|![Committer](./CubeFS%20Committer.jpg)|![Contributor](./CubeFS%20Contributor.jpg)|
 
 **主要贡献:**
 
@@ -86,6 +86,7 @@
 * 重构副本放置算法，并加入多种策略，提供更为丰富的功能。
 * 添加主动禁止卷写入的功能，与卷迁移功能对接。
 * 添加设置DataNode数据分区限制的功能，以便运维根据具体情况做出调整。
+* 添加后端审计日志。
 
 ### Curve
 
