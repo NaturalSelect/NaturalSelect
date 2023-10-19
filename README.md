@@ -20,6 +20,7 @@ Here are some ideas to get you started:
 * Working on Windows 10 and WSL.
 * Using C/C++/Go/C#/Java.
 * CNCF CubeFS Committer.
+* Working for sohu.com.
 
 ### Using
 
