@@ -13,7 +13,7 @@
 
 * 熟悉C++/C#/GO，了解Java/Python。
 * 熟悉Posix API、Windows API。
-* 了解云原生文件系统。
+* 了解云原生文件系统(CubeFS、Curve、Ceph)。
 * 对Raft算法有一定的理解，了解MultiRaft。
 * 对分布式事务有一定的理解，了解Percolator风格分布式事务。
 * 了解Primary-backup Replication、Chain Replication、Quorum Replication。
@@ -63,7 +63,7 @@
     * 搭建 Ceph 测试集群。
     * 为Ceph镜像添加中文dashboard。
     * 配置Ceph警报规则。
-    * 为Devops集群启用异步元数据操作，加速清理过程。
+    * 为Devops Cephfs集群启用异步元数据操作，加速清理过程。
 
 ## 项目经历
 
