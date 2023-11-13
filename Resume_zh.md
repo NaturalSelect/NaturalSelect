@@ -63,6 +63,7 @@
     * 搭建 Ceph 测试集群。
     * 为Ceph镜像添加中文dashboard。
     * 配置Ceph警报规则。
+    * 为Devops集群启用异步元数据操作，加速清理过程。
 
 ## 项目经历
 
@@ -104,6 +105,7 @@
 
 * 修复了不能在GCC 11上编译的BUG。
 * 支持元数据服务进行异步的 Raft Snapshot。
+* 修复Glog打印到`docker logs`的BUG。
 
 <!-- ### CurveAdm
 
