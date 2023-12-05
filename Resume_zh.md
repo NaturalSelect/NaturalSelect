@@ -13,12 +13,11 @@
 
 * 熟悉C++/C#/GO，了解Java/Python。
 * 熟悉Posix API、Windows API。
-* 了解云原生文件系统(CubeFS、Curve、Ceph)。
-* 对Raft算法有一定的理解，了解MultiRaft。
-* 对分布式事务有一定的理解，了解Percolator风格分布式事务。
-* 了解Primary-backup Replication、Chain Replication、Quorum Replication。
-* 了解常见磁盘数据结构（B+Tree、LSM Tree）。
-* 了解分布式系统原理、关系式数据库原理、操作系统原理。
+* 熟悉分布式存储系统(CubeFS、Ceph、Curve)。
+* 熟悉Raft和MultiRaft算法。
+* 熟悉Percolator风格分布式事务。
+* 了解常用复制方式（Primary-backup Replication、Chain Replication、Quorum Replication）。
+* 了解分布式系统原理。
 
 ## 教育经历
 
@@ -85,12 +84,18 @@
 **主要贡献:**
 
 * 添加和修复多个模块的单元测试，提高测试覆盖率。
+* 开发了CubeFS多个features，负责Master和MetaNode模块。
+
+
+<!--
 * 对Master模块进行优化，加速快照应用和Client Id分配。
 * 添加查询DataNode和MetaNode的负载的功能，减轻运维负担。
-* 重构副本放置算法，并加入多种策略，提供更为丰富的功能。
+* 重构副本放置算法，并加入多种新算法，提供更为丰富的功能。
 * 添加主动禁止卷写入的功能，与卷迁移功能对接。
 * 添加设置DataNode数据分区限制的功能，以便运维根据具体情况做出调整。
 * 添加后端审计日志并支持通过master进行卷级别配置。
+* 优化MetaNode更新VolumeView逻辑，合并多个RPC减少Master负载。
+-->
 
 ### Curve
 
