@@ -5,6 +5,7 @@
 * Working on Windows 10 and WSL.
 * Using C/C++/Go/C#/Java.
 * CNCF CubeFS Committer.
+* Working for [OPPO](www.oppo.com).
 
 ### Using
 
