@@ -27,7 +27,6 @@
 >
 > 2021.9 - 2025.6
 >
->
 > ## 实习经历
 >
 > ### Sohu
@@ -40,9 +39,17 @@
 >
 > **职责：** 运维Ceph存储集群
 >
+> **内容：**
+>   * DevOps集群：
+>       * 调优CephFS 配置，提高元数据效率。
+>       * 调整CephFS 用法，避免DevOps编译后，回收垃圾数据过慢的瓶颈。
+>   * OpenStack集群：
+>       * 调整 RBD 配置，提高IO效率。
+>   * 部署Ceph监控。
+>
 > ### OPPO
 >
-> **部门：** 云存储部-存储技术组
+> **部门：** 互联网服务系统/云数服务中心/云存储部/存储技术组
 >
 > **时间：** 2024 年 1 月 - 至今
 >
@@ -50,8 +57,23 @@
 >
 > **职责：** 分布式存储系统CubeFS的开发迭代
 >
-> **需求：**
->   * 负责元数据组件MetaNode Rocksdb持久化的开发。
+> **内容：**
+>   * 3.3.2版本:
+>       * Master组件：
+>           * Raft 快照流程重构以及BUG修复。
+>       * MetaNode组件：
+>           * 修复极端情况下，审计日志回收不及时的BUG。
+>   * 3.3.3 版本:
+>       * MetaNode组件：
+>           * Inode删除审计日志滚动支持。
+>           * Data Partition丢失时，调过extent回收，避免回收列表堆积。
+>           * 文件阶段流程支持批量删除extents。
+>   * MetaNode组件 Rocksdb持久化的开发:
+>       * MetaNode支持指定多个Rocksdb目录，每个目录代表一个磁盘，MetaPartition创建时选择磁盘放置数据。
+>       * 每个磁盘一个Rocksdb实例，复用BlockCache。
+>       * 重构文件删除（unlink）和截断（truncate）流程，保持Rocksdb落盘原子性。
+>       * 封装原有内存流程和Rocksdb流程为一套接口。
+>
 >
 > ## 项目经历
 >
@@ -67,7 +89,7 @@
 > **主要贡献与职责:**
 >
 > CubeFS是一个代码量高达 280k + Lines的超大型系统，内部分为Master、DataNode、MetaNode、Blobstore等模块。
-> 我在社区中负责Master和MetaNode模块相关功能的开发，累计提交了 30+ 的PR。
+> 我在社区中负责Master和MetaNode模块相关功能的开发，累计提交了 60+ 的PR。
 >
 >
 > 具体的工作如下：
