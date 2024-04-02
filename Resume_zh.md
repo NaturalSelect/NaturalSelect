@@ -61,13 +61,17 @@
 >   * 3.3.2版本:
 >       * Master组件：
 >           * Raft 快照流程重构以及BUG修复。
+>           * DataPartition follower read相关bugfix。
+>           * 磁盘损坏自动化迁移。
 >       * MetaNode组件：
 >           * 修复极端情况下，审计日志回收不及时的BUG。
->   * 3.3.3 版本:
->       * MetaNode组件：
 >           * Inode删除审计日志滚动支持。
 >           * Data Partition丢失时，调过extent回收，避免回收列表堆积。
->           * 文件阶段流程支持批量删除extents。
+>           * 文件截断流程支持批量删除extents。
+>       * DataNode组件：
+>           * 重启和升级场景的启动加速。
+>       * Client组件：
+>           * 大压力下流控的bugfix
 >   * MetaNode组件 Rocksdb持久化的开发:
 >       * MetaNode支持指定多个Rocksdb目录，每个目录代表一个磁盘，MetaPartition创建时选择磁盘放置数据。
 >       * 每个磁盘一个Rocksdb实例，复用BlockCache。
