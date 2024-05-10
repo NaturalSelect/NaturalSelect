@@ -2,7 +2,7 @@
 
 * Hello I'm NaturalSelect.
 * I am interested in cloud storage.
-* Working on Windows 10 and WSL.
+* Working on Ubuntu 22.04 LTS.
 * Using C/C++/Go/C#/Java.
 * CNCF CubeFS Committer.
 * Working for [OPPO](https://www.oppo.com).
