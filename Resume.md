@@ -38,8 +38,18 @@
 
 <!-- - 硕士，XXXX大学，计算机科学与技术专业，2016.9~2019.7 -->
 - 学士，成都信息工程大学，区块链工程专业，2021.9~2025.7
-<!-- - 绩点：***，年级前 100% -->
+- 绩点：3.0，年级前 30%
 - 通过了 CET4 英语等级考试
+
+## <img src="assets/tools-solid.svg" width="30px"> 技能清单
+
+- 熟练使用C++、go、了解Java、Python。
+- 熟悉常见数据结构与算法。
+- 熟悉分布式存储系统： CubeFS、Curve、Ceph。
+- 熟悉Raft算法。
+- 熟悉分布式事务。
+- 了解常见I/O技术： libaio、io_uring。
+- 熟练使用Linux系统。
 
 ## <img src="assets/briefcase-solid.svg" width="30px"> 工作经历
 
@@ -47,9 +57,19 @@
 
    开发和迭代分布式文件系统 CubeFS。
 
+   产出： [见项目经历 - CubeFS](#项目经历)
+
 - **搜狐，大数据中心/基础架构团队，SRE工程师，2023.10-2023.12**
 
-   负责调优和维护Ceph存储集群。
+   调优和维护Ceph存储集群。
+
+   产出：
+     - 优化RBD Cache配置充分使用机器未使用的空闲内存，**将虚拟机磁盘性能提升3倍。**
+     - 针对CephFS大目录删除缓慢问题提出优化方案，**使用mv代替rm + 后台异步回收的方式，提升内部DevOps工具性能。**
+     - 配置生产集群Ceph报警规则。
+
+<br/>
+<br/>
 
 ## <img src="assets/project-diagram-solid.svg" width="30px"> 项目经历
 
@@ -86,13 +106,3 @@
   贡献：
   * 负责开发 CurveFS Metaserver 的异步Raft Snapshot功能 [#2691](https://github.com/opencurve/curve/pull/2691)。
   * 修复容器部署场景下docker logs的日志双写问题 [#2869](https://github.com/opencurve/curve/pull/2869)。
-
-
-## <img src="assets/tools-solid.svg" width="30px"> 技能清单
-
-- 熟练使用C++、go。
-- 熟悉常见数据结构与算法。
-- 熟悉分布式存储系统： CubeFS、Curve、Ceph。
-- 熟悉Raft算法。
-- 熟悉分布式事务。
-- 熟练使用Linux系统。
