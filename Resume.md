@@ -104,5 +104,5 @@
   Curve 是网易主导的自研的 **主要使用C++编写** 的现代化存储系统, 目前支持文件存储(CurveFS)和块存储(CurveBS)。 **Curve在网易内部广泛使用，现作为沙箱项目托管于CNCF。**
 
   贡献：
-  * 负责开发 CurveFS Metaserver 的异步Raft Snapshot功能 [#2691](https://github.com/opencurve/curve/pull/2691)。
-  * 修复容器部署场景下docker logs的日志双写问题 [#2869](https://github.com/opencurve/curve/pull/2869)。
+  * 负责开发 CurveFS Metaserver 的异步Raft Snapshot功能。 [#2691](https://github.com/opencurve/curve/pull/2691)
+  * 修复容器部署场景下docker logs的日志双写问题。 [#2869](https://github.com/opencurve/curve/pull/2869)
