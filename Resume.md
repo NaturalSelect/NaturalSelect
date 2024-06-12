@@ -78,7 +78,7 @@
   CubeFS是一种新一代云原生存储系统, **主要使用golang编写** ，支持S3、HDFS和POSIX等访问协议， **被OPPO、京东、网易等厂商广泛使用，现作为孵化项目托管于CNCF。** 它广泛适用于各种场景，如大数据、AI/LLMs、容器平台、数据库和中间件的存储与计算分离、数据共享和保护等。
 
   贡献：
-  * 负责开发 **MetaNode的 [Rocksdb持久化](https://github.com/cubefs/cubefs/tree/metanode_rocksdb_dev) 功能（on 3.6.0 ROADMAP）**。
+  * 负责开发 **MetaNode的 [Rocksdb持久化](https://github.com/cubefs/cubefs/tree/develop-v3.5.0-metanode_rocksdb) 功能（on 3.5.0 ROADMAP）**。
   * 参与CubeFS [3.3.0](https://github.com/cubefs/cubefs/releases/tag/v3.3.0)的研发：
     * DataNode 限制最大 DataPartition 数量。 [#1946](https://github.com/cubefs/cubefs/pull/1946)
   * 参与CubeFS [3.3.1](https://github.com/cubefs/cubefs/releases/tag/v3.3.1)的研发：
