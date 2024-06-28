@@ -5,7 +5,6 @@
 * Working on Ubuntu 22.04 LTS.
 * Using C/C++/Go/C#/Java.
 * CNCF CubeFS Committer.
-* Working for [OPPO](https://www.oppo.com).
 
 ### Using
 
