@@ -28,7 +28,7 @@
  ## <img src="assets/info-circle-solid.svg" width="30px"> 个人信息
 
  - 男，2003 年出生
- - 求职意向：分布式存储工程师
+ - 求职意向：后端工程师
  - CNCF 孵化项目 CubeFS Committer
  - CNCF 沙盒项目 Curve Contributor
  <!-- - 工作经验：0 年（校招可不填） -->
