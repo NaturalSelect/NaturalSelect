@@ -46,18 +46,19 @@
 - 熟练使用C++、go、了解Java、Python。
 - 熟悉常见数据结构与算法。
 - 熟悉分布式存储系统： CubeFS、Curve、Ceph。
-- 熟悉Raft算法。
-- 熟悉分布式事务。
+- 熟悉Raft算法和分布式事务。
 - 了解常见I/O技术： libaio、io_uring。
-- 熟练使用Linux系统。
 
 ## <img src="assets/briefcase-solid.svg" width="30px"> 工作经历
 
 - **OPPO，互联网服务系统/云数能力中心/云计算部/存储技术组，后端工程师，2024.1～2024.6**
 
-   开发和迭代分布式文件系统 CubeFS。
+   开发和迭代分布式文件系统 CubeFS，参与3.3.2 3.4.0等版本的功能开发和缺陷修复。
 
-   产出： [见项目经历 - CubeFS](#项目经历)
+   产出：
+    - 优化DataNode在HDD环境下的启动速度， **使用镜像文件的方式将启动时间从3分钟缩短到20秒** 。
+    - 优化DataNode的DataPartition放置算法， **兼顾磁盘剩余容量的同时尽可能打散负载** 。
+    - 合并 MetaNode 获取卷信息的RPC以减少Master负载。
 
 - **搜狐，大数据中心/基础架构团队，SRE工程师，2023.10～2023.12**
 
@@ -68,7 +69,6 @@
      - 针对CephFS大目录删除缓慢问题提出优化方案，**使用mv代替rm + 后台异步回收的方式，提升内部DevOps工具性能。**
      - 配置生产集群Ceph报警规则。
 
-<br/>
 <br/>
 
 ## <img src="assets/project-diagram-solid.svg" width="30px"> 项目经历
@@ -94,7 +94,7 @@
     * 采集DataNode和MetaNode的负载并展示。 [#2097](https://github.com/cubefs/cubefs/pull/2097)
     * 重构节点选择算法，提供更多算法适配多个场景。 [#2353](https://github.com/cubefs/cubefs/pull/2353) [#2569](https://github.com/cubefs/cubefs/pull/2569) [#2829](https://github.com/cubefs/cubefs/pull/2829)
     * Extent删除流程优化。 [#3170](https://github.com/cubefs/cubefs/pull/3170)
-    * 磁盘放置 DataPartition 算法优化， **避免大量Data Partition无视磁盘可用空间放置**。
+    * 磁盘放置 DataPartition 算法优化， **兼顾磁盘剩余容量的同时尽可能打散负载**。
     * 与mentor一起开发坏盘自动化迁移功能。
 
   <!-- 使用一两句话描述项目的主要功能，然后介绍自己在项目中的角色，解决了什么问题，使用什么方式解决，比别人的方法相比有什么优势（尽量用数据来说明）。 -->
@@ -106,3 +106,9 @@
   贡献：
   * 负责开发 CurveFS Metaserver 的异步Raft Snapshot功能。 [#2691](https://github.com/opencurve/curve/pull/2691)
   * 修复容器部署场景下docker logs的日志双写问题。 [#2869](https://github.com/opencurve/curve/pull/2869)
+
+- **基于Raft的键值存储** <sub><a href="https://github.com/NaturalSelect/Rkv">github.com/NaturalSelect/Rkv</a></sub>
+  * 使用 **C++开发** 的键值存储系统 。
+  * 本项目基于 Raft 算法实现高可用的分布式键值存储系统，支持数据分片以提高扩展性与性能。
+  * 采用领导选举和日志复制确保数据一致性，使用rpc实现高效通信。
+  * 存储层采用LSM Tree存储数据。
