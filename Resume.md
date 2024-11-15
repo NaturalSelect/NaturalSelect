@@ -40,31 +40,19 @@
 
 
 - CNCF 孵化项目 CubeFS Committer **(4.7k stars 贡献70+ PR)**，CNCF 沙盒项目 Curve Contributor **(2.3k stars)**。
-- 熟练使用C++、go, 参与过大规模分布式系统的研发，了解gin、gorm、grpc等框架。。
+- 熟练使用C++、go, 参与过大规模分布式系统的研发，了解gin、grpc等框架， 熟悉ASP.NET Core Web编程。
 - 熟悉常见数据结构与算法, 了解常见异步I/O技术： libaio、io_uring。
 - 熟悉CubeFS、Curve、Ceph等分布式存储系统, 熟悉Raft算法和分布式事务（2pc）。
 
 ## <img src="assets/briefcase-solid.svg" width="30px"> 工作经历
 
-- **OPPO，互联网服务系统/云数能力中心/云计算部/存储技术组，后端工程师，2024.1～2024.6**
+- **OPPO 后端工程师 2024.1 - 2024.6**
 
-   开发和迭代分布式文件系统 CubeFS，参与3.3.2 3.4.0等版本的功能开发和缺陷修复。
+   负责分布式文件系统 CubeFS的研发。提升HDD环境下DataNode的启动速度， **将启动时间从3分钟缩短到20秒** 。优化DataNode选盘算法， **兼顾磁盘剩余容量的同时尽可能打散DataPartition** 。参与MetaNode 元数据Rocksdb持久化、DataNode坏盘自动迁移等功能的研发及多个线上问题的修复。
 
-   产出：
-    - 提升HDD环境下DataNode的启动速度， **将启动时间从3分钟缩短到20秒** 。
-    - DataNode选盘算法优化， **兼顾磁盘剩余容量的同时尽可能打散负载** 。
-    - 合并 MetaNode 获取卷信息的RPC以减少Master负载。
-    - 参与坏盘自动迁移功能的研发。
-    - 参与MetaNode Rocksdb持久化功能的研发。
+- **搜狐 SRE工程师 2023.10 - 2023.12**
 
-- **搜狐，大数据中心/基础架构团队，SRE工程师，2023.10～2023.12**
-
-   调优和维护Ceph存储集群。
-
-   产出：
-     - 优化RBD Cache配置充分使用机器未使用的空闲内存，**将虚拟机磁盘性能提升3倍。**
-     - 针对CephFS大目录删除缓慢问题提出优化方案，**使用mv代替rm + 后台异步回收的方式，提升内部DevOps工具性能。**
-     - 配置生产集群Ceph报警规则。
+   负责调优和维护Ceph存储集群。优化RBD Cache配置充分使用机器未使用的空闲内存，**将虚拟机磁盘性能提升3倍。** 针对CephFS大目录删除缓慢问题提出优化方案， **使用mv代替rm + 后台异步回收的方式，提升内部DevOps工具性能。** 配置生产集群Ceph报警规则。
 
 <br/>
 
