@@ -58,6 +58,18 @@
   主要贡献：<br/>
     优化DataNode在HDD升级场景的启动速度， **使用镜像文件的方式将启动时间从3分钟缩短到20秒** 。优化Master的Raft 快照安装流程。参与MetaNode Rocksdb 元数据持久化功能的研发。优化Master选择Nodeset的流程，支持多种选择算法。参与DataNode坏盘自动迁移功能的研发<br/>
   项目网址： http://github.com/cubefs/cubefs
+  <!-- 使用一两句话描述项目的主要功能，然后介绍自己在项目中的角色，解决了什么问题，使用什么方式解决，比别人的方法相比有什么优势（尽量用数据来说明）。 -->
+
+- **Curve**<br/>
+  Curve 是网易主导的自研的 **主要使用C++编写** 的现代化存储系统, 目前支持文件存储(CurveFS)和块存储(CurveBS)。 **Curve在网易内部广泛使用，现作为沙箱项目托管于CNCF。**<br/>
+  参与贡献：<br/>
+    负责开发 CurveFS Metaserver 的异步Raft Snapshot功能。<br/>
+  项目网址：https://github.com/opencurve/curve
+- **基于Raft的键值存储**<br/>
+  使用 **C++开发** 的键值存储系统 。本项目基于 Raft 算法实现高可用的分布式键值存储系统，支持数据分片以提高扩展性与性能。<br/>
+  采用领导选举和日志复制确保数据一致性，使用rpc实现高效通信。存储层采用LSM Tree存储数据。<br/>
+  项目网址：https://github.com/NaturalSelect/Rkv
+
 
   <!-- * 负责开发 **MetaNode的 [Rocksdb持久化](https://github.com/cubefs/cubefs/tree/develop-v3.5.0-metanode_rocksdb) 功能（on 3.5.0 ROADMAP）**。
   * 参与CubeFS [3.3.0](https://github.com/cubefs/cubefs/releases/tag/v3.3.0)的研发：
@@ -77,15 +89,3 @@
     * Extent删除流程优化。 [#3170](https://github.com/cubefs/cubefs/pull/3170)
     * 磁盘放置 DataPartition 算法优化， **兼顾磁盘剩余容量的同时尽可能打散负载**。
     * 与mentor一起开发坏盘自动化迁移功能。 -->
-
-  <!-- 使用一两句话描述项目的主要功能，然后介绍自己在项目中的角色，解决了什么问题，使用什么方式解决，比别人的方法相比有什么优势（尽量用数据来说明）。 -->
-
-- **Curve**<br/>
-  Curve 是网易主导的自研的 **主要使用C++编写** 的现代化存储系统, 目前支持文件存储(CurveFS)和块存储(CurveBS)。 **Curve在网易内部广泛使用，现作为沙箱项目托管于CNCF。**<br/>
-  参与贡献：<br/>
-    负责开发 CurveFS Metaserver 的异步Raft Snapshot功能。<br/>
-  项目网址：https://github.com/opencurve/curve
-- **基于Raft的键值存储**<br/>
-  使用 **C++开发** 的键值存储系统 。本项目基于 Raft 算法实现高可用的分布式键值存储系统，支持数据分片以提高扩展性与性能。<br/>
-  采用领导选举和日志复制确保数据一致性，使用rpc实现高效通信。存储层采用LSM Tree存储数据。<br/>
-  项目网址：https://github.com/NaturalSelect/Rkv
