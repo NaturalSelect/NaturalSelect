@@ -42,8 +42,9 @@
 - CNCF 孵化项目 CubeFS Committer (4.7k stars)
 - CNCF 沙盒项目 Curve Contributor (2.3k stars)
 - 熟练使用C++、go, 参与过大规模分布式系统的研发。
-- 熟悉常见数据结构与算法, 了解常见I/O技术： libaio、io_uring。
+- 熟悉常见数据结构与算法, 了解常见异步I/O技术： libaio、io_uring。
 - 熟悉分布式存储系统： CubeFS、Curve、Ceph,熟悉Raft算法和分布式事务。
+- 了解gin、gorm、grpc等框架。
 
 ## <img src="assets/briefcase-solid.svg" width="30px"> 工作经历
 
