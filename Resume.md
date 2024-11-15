@@ -39,12 +39,10 @@
 ## <img src="assets/tools-solid.svg" width="30px"> 个人优势
 
 
-- CNCF 孵化项目 CubeFS Committer (4.7k stars)
-- CNCF 沙盒项目 Curve Contributor (2.3k stars)
-- 熟练使用C++、go, 参与过大规模分布式系统的研发。
+- CNCF 孵化项目 CubeFS Committer **(4.7k stars 贡献70+ PR)**，CNCF 沙盒项目 Curve Contributor **(2.3k stars)**。
+- 熟练使用C++、go, 参与过大规模分布式系统的研发，了解gin、gorm、grpc等框架。。
 - 熟悉常见数据结构与算法, 了解常见异步I/O技术： libaio、io_uring。
-- 熟悉分布式存储系统： CubeFS、Curve、Ceph,熟悉Raft算法和分布式事务。
-- 了解gin、gorm、grpc等框架。
+- 熟悉CubeFS、Curve、Ceph等分布式存储系统, 熟悉Raft算法和分布式事务（2pc）。
 
 ## <img src="assets/briefcase-solid.svg" width="30px"> 工作经历
 
@@ -53,10 +51,11 @@
    开发和迭代分布式文件系统 CubeFS，参与3.3.2 3.4.0等版本的功能开发和缺陷修复。
 
    产出：
-    - 优化DataNode在HDD环境下的启动速度， **使用镜像文件的方式将启动时间从3分钟缩短到20秒** 。
-    - 优化DataNode的DataPartition放置算法， **兼顾磁盘剩余容量的同时尽可能打散负载** 。
+    - 提升HDD环境下DataNode的启动速度， **将启动时间从3分钟缩短到20秒** 。
+    - DataNode选盘算法优化， **兼顾磁盘剩余容量的同时尽可能打散负载** 。
     - 合并 MetaNode 获取卷信息的RPC以减少Master负载。
     - 参与坏盘自动迁移功能的研发。
+    - 参与MetaNode Rocksdb持久化功能的研发。
 
 - **搜狐，大数据中心/基础架构团队，SRE工程师，2023.10～2023.12**
 
