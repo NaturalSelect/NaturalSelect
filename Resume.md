@@ -27,10 +27,7 @@
 
  ## <img src="assets/info-circle-solid.svg" width="30px"> 个人信息
 
- - 男，2003 年出生
  - 求职意向：后端工程师、运维工程师、测试工程师
- - CNCF 孵化项目 CubeFS Committer
- - CNCF 沙盒项目 Curve Contributor
  <!-- - 工作经验：0 年（校招可不填） -->
  <!-- - 期望薪资：0k（校招可不填） -->
 
@@ -38,16 +35,15 @@
 
 <!-- - 硕士，XXXX大学，计算机科学与技术专业，2016.9~2019.7 -->
 - 学士，成都信息工程大学，区块链工程专业，2021.9~2025.7
-- 绩点：3.0，年级前 30%
-- 通过了 CET4 英语等级考试
 
-## <img src="assets/tools-solid.svg" width="30px"> 技能清单
+## <img src="assets/tools-solid.svg" width="30px"> 个人优势
 
-- 熟练使用C++、go、了解Java、Python。
-- 熟悉常见数据结构与算法。
-- 熟悉分布式存储系统： CubeFS、Curve、Ceph。
-- 熟悉Raft算法和分布式事务。
-- 了解常见I/O技术： libaio、io_uring。
+
+- CNCF 孵化项目 CubeFS Committer (4.7k stars)
+- CNCF 沙盒项目 Curve Contributor (2.3k stars)
+- 熟练使用C++、go, 参与过大规模分布式系统的研发。
+- 熟悉常见数据结构与算法, 了解常见I/O技术： libaio、io_uring。
+- 熟悉分布式存储系统： CubeFS、Curve、Ceph,熟悉Raft算法和分布式事务。
 
 ## <img src="assets/briefcase-solid.svg" width="30px"> 工作经历
 
