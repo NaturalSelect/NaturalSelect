@@ -58,12 +58,25 @@
 
 ## <img src="assets/project-diagram-solid.svg" width="30px"> 项目经历
 
-- **CubeFS** <sub><a href="https://cubefs.io/zh">cubefs.io</a></sub>
+- **CubeFS**
 
   CubeFS是一种新一代云原生存储系统, **主要使用golang编写** ，支持S3、HDFS和POSIX等访问协议， **被OPPO、京东、网易等厂商广泛使用，现作为孵化项目托管于CNCF。** 它广泛适用于各种场景，如大数据、AI/LLMs、容器平台、数据库和中间件的存储与计算分离、数据共享和保护等。
 
-  贡献：
-  * 负责开发 **MetaNode的 [Rocksdb持久化](https://github.com/cubefs/cubefs/tree/develop-v3.5.0-metanode_rocksdb) 功能（on 3.5.0 ROADMAP）**。
+  参与贡献：
+
+    DataNode启动加速， **使用镜像文件的方式将启动时间从3分钟缩短到20秒** 。[#3341](https://github.com/cubefs/cubefs/pull/3341)。
+
+    Master Raft Snapshot优化。 [#2124](https://github.com/cubefs/cubefs/pull/2124) [#3146](https://github.com/cubefs/cubefs/pull/3146)。
+
+    MetaNode Rocksdb 元数据持久化 [branch develop-v3.5.0-metanode_rocksdb](https://github.com/cubefs/cubefs/tree/develop-v3.5.0-metanode_rocksdb)。
+
+    选择节点时Nodeset支持多种选择算法。 [#2353](https://github.com/cubefs/cubefs/pull/2353) [#2569](https://github.com/cubefs/cubefs/pull/2569) [#2829](https://github.com/cubefs/cubefs/pull/2829)。
+
+    Extent删除流程优化。 [#3170](https://github.com/cubefs/cubefs/pull/3170)。
+
+  项目网址： http://github.com/cubefs/cubefs
+
+  <!-- * 负责开发 **MetaNode的 [Rocksdb持久化](https://github.com/cubefs/cubefs/tree/develop-v3.5.0-metanode_rocksdb) 功能（on 3.5.0 ROADMAP）**。
   * 参与CubeFS [3.3.0](https://github.com/cubefs/cubefs/releases/tag/v3.3.0)的研发：
     * DataNode 限制最大 DataPartition 数量。 [#1946](https://github.com/cubefs/cubefs/pull/1946)
   * 参与CubeFS [3.3.1](https://github.com/cubefs/cubefs/releases/tag/v3.3.1)的研发：
@@ -80,20 +93,27 @@
     * 重构节点选择算法，提供更多算法适配多个场景。 [#2353](https://github.com/cubefs/cubefs/pull/2353) [#2569](https://github.com/cubefs/cubefs/pull/2569) [#2829](https://github.com/cubefs/cubefs/pull/2829)
     * Extent删除流程优化。 [#3170](https://github.com/cubefs/cubefs/pull/3170)
     * 磁盘放置 DataPartition 算法优化， **兼顾磁盘剩余容量的同时尽可能打散负载**。
-    * 与mentor一起开发坏盘自动化迁移功能。
+    * 与mentor一起开发坏盘自动化迁移功能。 -->
 
   <!-- 使用一两句话描述项目的主要功能，然后介绍自己在项目中的角色，解决了什么问题，使用什么方式解决，比别人的方法相比有什么优势（尽量用数据来说明）。 -->
 
-- **Curve** <sub><a href="https://opencurve.io/Curve/HOME">opencurve.io</a> </sub>
+- **Curve**
 
   Curve 是网易主导的自研的 **主要使用C++编写** 的现代化存储系统, 目前支持文件存储(CurveFS)和块存储(CurveBS)。 **Curve在网易内部广泛使用，现作为沙箱项目托管于CNCF。**
 
-  贡献：
-  * 负责开发 CurveFS Metaserver 的异步Raft Snapshot功能。 [#2691](https://github.com/opencurve/curve/pull/2691)
-  * 修复容器部署场景下docker logs的日志双写问题。 [#2869](https://github.com/opencurve/curve/pull/2869)
+  参与贡献：
 
-- **基于Raft的键值存储** <sub><a href="https://github.com/NaturalSelect/Rkv">github.com/NaturalSelect/Rkv</a></sub>
-  * 使用 **C++开发** 的键值存储系统 。
-  * 本项目基于 Raft 算法实现高可用的分布式键值存储系统，支持数据分片以提高扩展性与性能。
-  * 采用领导选举和日志复制确保数据一致性，使用rpc实现高效通信。
-  * 存储层采用LSM Tree存储数据。
+  负责开发 CurveFS Metaserver 的异步Raft Snapshot功能。 [#2691](https://github.com/opencurve/curve/pull/2691)
+
+  修复容器部署场景下docker logs的日志双写问题。 [#2869](https://github.com/opencurve/curve/pull/2869)
+
+  项目网址：https://github.com/opencurve/curve
+
+
+- **基于Raft的键值存储**
+
+  使用 **C++开发** 的键值存储系统 。本项目基于 Raft 算法实现高可用的分布式键值存储系统，支持数据分片以提高扩展性与性能。
+
+  采用领导选举和日志复制确保数据一致性，使用rpc实现高效通信。存储层采用LSM Tree存储数据。
+
+  项目网址：https://github.com/NaturalSelect/Rkv
