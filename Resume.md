@@ -46,7 +46,7 @@
 ## <img src="assets/briefcase-solid.svg" width="30px"> 工作经历
 
 - **OPPO 后端工程师 2024.1 - 2024.6**<br/>
-   负责分布式文件系统 CubeFS的研发。提升HDD环境下DataNode的启动速度， **将启动时间从3分钟缩短到20秒** 。优化DataNode选盘算法， **兼顾磁盘剩余容量的同时尽可能打散DataPartition** 。参与MetaNode 元数据Rocksdb持久化、DataNode坏盘自动迁移等功能的研发及多个线上问题的修复。
+   负责分布式文件系统 CubeFS的研发。提升HDD环境下DataNode的启动速度， **将启动时间从3分钟缩短到20秒** 。优化DataNode选盘算法， **兼顾磁盘剩余容量的同时尽可能打散DataPartition** 。研发MetaNode 元数据Rocksdb持久化功能, **降低元数据存储成本。** DataNode坏盘自动迁移等功能的研发及多个线上问题的修复， **减少运维人工投入，实现自动化迁移** 。
 
 - **搜狐 SRE工程师 2023.10 - 2023.12**<br/>
    负责调优和维护Ceph存储集群。优化RBD Cache配置充分使用机器未使用的空闲内存，**将虚拟机磁盘性能提升3倍。** 针对CephFS大目录删除缓慢问题提出优化方案， **使用mv代替rm + 后台异步回收的方式，提升内部DevOps工具性能。** 配置生产集群Ceph报警规则。
