@@ -39,7 +39,7 @@
 ## <img src="assets/tools-solid.svg" width="30px"> 个人优势
 
 - CNCF 孵化项目 CubeFS Committer **(4.7k stars 贡献70+ PR)**，CNCF 沙盒项目 Curve Contributor **(2.3k stars)**。
-- 熟练使用C++、go, 参与过大规模分布式系统的研发，了解gin、grpc等框架， 熟悉ASP.NET Core Web编程。
+- 熟练使用C++、go,了解rust, 参与过大规模分布式系统的研发，了解gin、grpc等框架， 熟悉ASP.NET Core Web编程。
 - 熟悉常见数据结构与算法, 了解常见异步I/O技术： libaio、io_uring。
 - 熟悉CubeFS、Curve、Ceph等分布式存储系统, 熟悉Raft算法和分布式事务（2pc）。
 
