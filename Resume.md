@@ -66,8 +66,11 @@
     负责开发 CurveFS Metaserver 的异步Raft Snapshot功能， **避免在进行快照时无法提供服务** 。<br/>
   项目网址：https://github.com/opencurve/curve
 - **基于Raft的键值存储**<br/>
-  使用 **C++开发** 的键值存储系统 。阅读了Raft论文，基于 Raft 算法实现高可用的分布式键值存储系统，支持数据分片以提高扩展性与性能，经过了强杀测试和SIGSTOP/SIGCONT测试,保证单节点挂掉时系统仍能继续工作。<br/>
-  采用领导选举和日志复制确保数据一致性，使用rpc实现高效通信。存储层采用仿制Leveldv的LSM Tree存储数据，底层采用io_uring和协程，实现无阻塞事件处理。<br/>
+  使用 **C++开发** 的键值存储系统 。<br/>
+  阅读了Raft论文，基于论文复现 Raft 算法实现高可用的分布式键值存储系统， **经过了kill -9测试和SIGSTOP/SIGCONT测试,保证单节点挂掉时系统仍能继续工作** 。<br/>
+  支持数据分片以 **提高系统整体的性能** 。<br/>
+  采用领导选举和日志复制确保数据一致性，使用rpc实现高效通信。<br/>
+  存储层采用仿制Leveldv的LSM Tree存储数据，底层采用io_uring和协程，实现无阻塞事件处理， **只需与CPU数量相同的线程，就能在高压力时完全压榨机器的性能** 。<br/>
   项目网址：https://github.com/NaturalSelect/Rkv
 
 
