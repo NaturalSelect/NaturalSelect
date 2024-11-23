@@ -63,11 +63,11 @@
 - **Curve**<br/>
   Curve 是网易主导的自研的 **主要使用C++编写** 的现代化存储系统, 目前支持文件存储(CurveFS)和块存储(CurveBS)。 **Curve在网易内部广泛使用，现作为沙箱项目托管于CNCF。**<br/>
   主要贡献：<br/>
-    负责开发 CurveFS Metaserver 的异步Raft Snapshot功能。<br/>
+    负责开发 CurveFS Metaserver 的异步Raft Snapshot功能， **避免在进行快照时无法提供服务** 。<br/>
   项目网址：https://github.com/opencurve/curve
 - **基于Raft的键值存储**<br/>
-  使用 **C++开发** 的键值存储系统 。阅读了Raft论文，基于 Raft 算法实现高可用的分布式键值存储系统，支持数据分片以提高扩展性与性能，经过了强杀测试和SIGSTOP/SIGCONT测试。<br/>
-  采用领导选举和日志复制确保数据一致性，使用rpc实现高效通信。存储层采用仿制Leveldv的LSM Tree存储数据，底层采用io_uring和协程。<br/>
+  使用 **C++开发** 的键值存储系统 。阅读了Raft论文，基于 Raft 算法实现高可用的分布式键值存储系统，支持数据分片以提高扩展性与性能，经过了强杀测试和SIGSTOP/SIGCONT测试,保证单节点挂掉时系统仍能继续工作。<br/>
+  采用领导选举和日志复制确保数据一致性，使用rpc实现高效通信。存储层采用仿制Leveldv的LSM Tree存储数据，底层采用io_uring和协程，实现无阻塞事件处理。<br/>
   项目网址：https://github.com/NaturalSelect/Rkv
 
 
