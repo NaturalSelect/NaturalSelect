@@ -35,3 +35,4 @@
 * [AnyMoonS/AutoFinishLessons](https://github.com/AnyMoonS/AutoFinishLessons)
 * [Lxns-Network/nakuru-project](https://github.com/Lxns-Network/nakuru-project)
 * [opencurve/curve](https://github.com/opencurve/curve)
+* [juicedata/juicefs](https://github.com/juicedata/juicefs)
